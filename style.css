@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(101,151,209,0.8),rgba(202,102,211,0.5)), url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+    position: fixed;
+}
+
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(49,70,7);
+    background: rgba(105,224,90,0.55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(0,255,221,0.45);
+    cursor: default;
+    border-radius: 1rem;
+}
+
+#question{
+    margin-bottom: 1rem;
+}
+
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: lightblue;
+    border-radius: 1rem;
+}
+
+.option:hover{
+    color: rgb(234, 137, 137);
+}
+
+.option:active{
+	background-color: #3e8e41;
+	transform: translateY(4px);
+
+}
+
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(93,53,156,0.98);
+    background: rgba(161,177,19,0.82);
+}
+
+button:active{
+    background: lavender;
+}
+
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: rgba(230,230,250,0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+
+#score-title{
+    margin: 1rem 0;
+}
+
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+
+#score{
+    font-size: 2.5rem;
+}
+
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+
+#answers{
+    margin-top: 1rem;
+}
